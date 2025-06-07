@@ -1,0 +1,8 @@
+# Build files
+build/
+
+# Test files
+tests/KNN_Classifier_test
+
+# Library files
+libML.a
