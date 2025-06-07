@@ -5,6 +5,10 @@
 #include <vector>
 #include <functional>
 
+// #define ML_VERSION_MAJOR 0
+// #define ML_VERSION_MINOR 0
+// #define ML_VERSION_PATCH 0
+
 namespace types{
     using sample = std::vector<double>;
     using samples = std::vector<sample>;
