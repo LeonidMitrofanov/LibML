@@ -5,6 +5,6 @@
 template <typename targets_t> class IModel {
 public:
   virtual ~IModel() = default;
-  virtual void fit(const types::samples &X, const types::classification_targets &y) = 0;
-  virtual types::classification_targets predict(const types::samples &X) const = 0;
+  virtual void fit(const types::samples &X, const targets_t &y) = 0;
+  virtual targets_t predict(const types::samples &X) const = 0;
 };
